@@ -14,7 +14,7 @@
 
 |  | 描述   |
 |-------------|----------|
-|Simple Factory|	工廠負責管理所有的具象產品，利用if else 或 switch case判斷式來產生何種產品|
+|Simple Factory|	工廠負責管理所有的具象產品，利用 if else 或 switch case 判斷式來產生何種產品|
 |Factory Method|	工廠提升為一個抽象概念，實際上產生產品的是實作工廠概念的具象工廠|
 
 

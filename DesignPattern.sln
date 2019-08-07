@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignPattern", "DesignPatt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactory", "SimpleFactory\SimpleFactory.csproj", "{080BE878-5C12-468B-A2C5-2BE98C396FCF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{0669C1D7-75D8-409E-AADA-874E43E36ECA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,10 @@ Global
 		{080BE878-5C12-468B-A2C5-2BE98C396FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{080BE878-5C12-468B-A2C5-2BE98C396FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{080BE878-5C12-468B-A2C5-2BE98C396FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0669C1D7-75D8-409E-AADA-874E43E36ECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0669C1D7-75D8-409E-AADA-874E43E36ECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0669C1D7-75D8-409E-AADA-874E43E36ECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0669C1D7-75D8-409E-AADA-874E43E36ECA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -33,6 +39,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{29F061A0-76DA-41CB-BB76-EE9695C53145} = {8B18D71F-076B-405B-839F-235C1C366377}
 		{080BE878-5C12-468B-A2C5-2BE98C396FCF} = {8B18D71F-076B-405B-839F-235C1C366377}
+		{0669C1D7-75D8-409E-AADA-874E43E36ECA} = {8B18D71F-076B-405B-839F-235C1C366377}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7F019C68-CEC3-40C6-A3DB-3E70AF51B75A}
