@@ -13,6 +13,7 @@ namespace AbstractFactory
     {
         static void Main(string[] args)
         {
+            //Abstract Factory
             var template = TemplateEnum.Books;
             IFactory factory;
 
@@ -35,6 +36,18 @@ namespace AbstractFactory
 
             order.Upload();
             invoice.Upload();
+
+            //Simple Factory
+            var orderS = SimpleFactory.CreateOrder(template);
+            var invoiceS = SimpleFactory.CreateInvoice(template);
+            orderS.Upload();
+            invoiceS.Upload();
+
+            //Simple Factory with Reflection
+            var orderR = SimpleFactoryReflection.CreateOrder(template);
+            var invoiceR = SimpleFactoryReflection.CreateInvoice(template);
+            orderR.Upload();
+            invoiceR.Upload();
         }
     }
 }

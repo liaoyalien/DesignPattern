@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0669C1D7-75D8-409E-AADA-874E43E36ECA}</ProjectGuid>
+    <ProjectGuid>{4A5CA470-CD55-4584-9919-17B6AE07B834}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AbstractFactory</RootNamespace>
-    <AssemblyName>AbstractFactory</AssemblyName>
+    <RootNamespace>test</RootNamespace>
+    <AssemblyName>test</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,30 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Enum\TemplateEnum.cs" />
-    <Compile Include="Factory\BooksFactory.cs" />
-    <Compile Include="Factory\ShopeeFactory.cs" />
-    <Compile Include="Factory\SimpleFactory.cs" />
-    <Compile Include="Factory\SimpleFactoryReflection.cs" />
-    <Compile Include="Product\AbstractInvoice.cs" />
-    <Compile Include="Product\AbstractOrder.cs" />
-    <Compile Include="Factory\IFactory.cs" />
-    <Compile Include="Product\BooksInvoice.cs" />
-    <Compile Include="Product\BooksOrder.cs" />
-    <Compile Include="Product\ShopeeInvoice.cs" />
-    <Compile Include="Product\ShopeeOrder.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagramSimpleFactory.cd" />
-    <None Include="ClassDiagram.cd" />
-    <None Include="README.md" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="ClassDiagram.jpg" />
-    <Content Include="ClassDiagramSimpleFactory.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
