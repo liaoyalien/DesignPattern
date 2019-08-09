@@ -16,11 +16,12 @@
 
 增加產品時候要改很多，例如增加一個產品叫做 Product，要增加3個class, AbstractProduct、BooksProduct、ShopeeProduct, 另外還要修改IFactory、BooksFactory及ShopeeFactory。
 
-# 用簡單工廠來改進缺點
+# 改進
 
+## 用簡單工廠來改進class暴增問題
 捨棄IFactory, 跟子工廠們。回到簡單工廠模式，再把決定權移回去單一個工廠 (覺得好像也不能說是改進...就是回到老路啊)
 
 ![Class Diagram Simple Factory](ClassDiagramSimpleFactory.jpg)
 
-# 用反射改善選擇子類別的 if else / swich case 判斷條件
+## 用反射去除用來判斷要開出哪個子類別的 if else / swich case 
 
